@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth focus:scroll-auto overflow-y-auto" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saborsolidario</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img_svg/android-chrome-192x192.png" type="image/x-icon">
+
+</head>
+
+<body class="bg-slate-800">
+    <!-- Seção de Boas-vindas -->
+    <div id="home" class="bg-cover bg-center h-screen ">
+        <header id="header" class="justify-evenly flex  w-full transparent shadow-md z-50 p-2 ">
+
+           
+            <div class="text-white font-bold text-xl mt-1">
+                Sabor Solidário
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="font-bold px-3 py-2 text-white hover:bg-slate-100 hover:text-slate-900 rounded">Home</a>
+                <a href="#sobrenos" class="font-bold px-3 py-2 text-white hover:bg-slate-100 hover:text-slate-900 rounded">Quem somos</a>
+                <a href="#Juntar-se" class="font-bold px-3 py-2 text-white hover:bg-slate-100 hover:text-slate-900 rounded">Juntar-se a causa</a>
+                <a href="#contato" class="font-bold px-3 py-2 text-white hover:bg-slate-100 hover:text-slate-900 rounded">Contato</a>
+            </nav>
+        </header>
+       
+
+        <div class="flex items-center justify-center h-full">
+            
+            
+            <div class="text-center text-white">
+                <h1 class="text-7xl font-bold">SABOR SOLIDÁRIO </h1>
+               
+               
+                
+            
+                <h1 class="text-3xl font-bold mt-12">Ajude a Combater a Fome</h1>
+                <p class="mt-4 text-lg">Sua doação faz a diferença na vida de muitas pessoas.</p>
+                <a href="#cadastre" class="mt-6 block bg-yellow-400 text-white px-2 py-2 rounded hover:bg-red-600">Doe Agora</a>
+            </div>
+
+            
+            
+        </div>
+    </div>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobrenos" class="h-screen bg-yellow-50 text-gray-900 bg-[url('img_svg/conversation-29.svg')] bg-cover bg-center ">
+        <div class="container mx-auto px-4 h-full flex flex-col justify-center">
+            <h2 class="text-5xl font-bold text-center">Sobre Nós</h2>
+            <div class="flex justify-center mt-4">
+                <button id="showTextButton" class="text-center animate-bounce text-1xl text-black bg-gradient-to-r from-yellow-200 to-orange-300 p-2 rounded-lg shadow-lg">Entenda..</button>
+            </div>
+            <div id="textBox" class="hidden fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center">
+                <div class="bg-white p-8 rounded-lg shadow-lg max-w-lg">
+                    <p class="text-lg text-center ">Somos uma organização sem fins lucrativos comprometida com a transformação de vidas através da generosidade e da solidariedade.</p>
+                    <p class="text-lg mt-4 text-center"> Nossa missão é unir esforços para combater a fome e promover um futuro melhor para aqueles que enfrentam dificuldades.</p>
+                    <button id="closeTextButton" class="mt-4 text-center text-1xl text-white bg-blue-400 hover:bg-blue-950 rounded px-4 py-2">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="sobrenos-script.js"></script>
+
+    
+
+
+
+    <section id="Juntar-se" class=" py-80  bg-orange-50  text-gray-900 bg-[url('img_svg/family-1-25.svg')] bg-cover bg-center">
+        
+
+        <div class="container mx-auto text-center ">
+            
+            <h2 class="text-5xl font-bold"> Por Que Juntar-se à Causa ?</h2>
+            <div class="mt-8 overflow-x-auto snap-x snap-mandatory flex 
+            [&::-webkit-scrollbar]:w-2
+            [&::-webkit-scrollbar-track]:rounded-full
+            [&::-webkit-scrollbar-track]:bg-orange-100
+            [&::-webkit-scrollbar-thumb]:rounded-full
+            [&::-webkit-scrollbar-thumb]:bg-orange-300
+            dark:[&::-webkit-scrollbar-track]:bg-orange-100
+            dark:[&::-webkit-scrollbar-thumb]:bg-orange-300">
+                <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+                    <div class="p-8 bg-white rounded-lg shadow-lg ">
+                        <h3 class="text-2xl font-bold">Impacto Direto</h3>
+                        <p class="mt-4 text-lg ">Ao doar alimentos, você proporciona alívio imediato para pessoas em situação de vulnerabilidade. Sua contribuição ajuda a garantir que famílias e indivíduos tenham acesso a alimentos nutritivos e essenciais.</p>
+                    </div>
+                </div>
+                <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+                    <div class="p-8 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold">Redução do Desperdício</h3>
+                        <p class="mt-4 text-lg">Doar alimentos não apenas ajuda quem precisa, mas também contribui para a redução do desperdício. Muitos alimentos que poderiam ser descartados são direcionados para aqueles que mais precisam, promovendo uma utilização mais sustentável dos recursos.</p>
+                    </div>
+                </div>
+                <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+                    <div class="p-8 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold">Empoderamento e Autoestima</h3>
+                        <p class="mt-4 text-lg">Doar alimentos também ajuda a empoderar os beneficiários, proporcionando-lhes a dignidade de receber apoio. Muitas vezes, a ajuda pode restaurar a autoestima e a confiança, permitindo que as pessoas se reergam e contribuam para suas comunidades.</p>
+                    </div>
+                </div>
+                <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+                    <div class="p-8 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold">Criação de Um Legado Positivo</h3>
+                        <p class="mt-4 text-lg">Ao contribuir para a causa, você está criando um legado de compaixão e responsabilidade social. Seus esforços deixam uma marca positiva na vida de muitos e podem inspirar futuras gerações a continuar o trabalho de solidariedade e ajuda ao próximo.</p>
+                    </div>
+                </div>
+
+                <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+                    <div class="p-8 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold">Promoção da Saúde e Bem-Estar</h3>
+                        <p class="mt-4 text-lg">Alimentos saudáveis e nutritivos são essenciais para o bem-estar físico e mental. Ao doar alimentos, você está contribuindo para a saúde das pessoas em situação de vulnerabilidade, ajudando a prevenir doenças relacionadas à má nutrição e promovendo um estilo de vida mais saudável.</p>
+                    </div>
+                </div>
+            </div>
+            
+                
+                
+            </div>
+            
+    </section>
+    
+
+    <!-- Seção de Doação -->
+    <section id="cadastre" class="py-12 bg-white text-gray-900">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl font-bold text-center text-red-500">Não se cadastrou ?</h1>
+            <h2 class="text-3xl font-bold text-center mt-2">Peça AJUDA ou AJUDE!</h2>
+    
+            
+            <form id="cadastroForm" class="mt-8 max-w-lg mx-auto">
+
+                <div class="mb-4">
+                    <label class="block">Nome</label>
+                    <input type="text" name="nome" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block">Telefone</label>
+                    <input type="number" name="telefone" class=" style-none w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block">Email</label>
+                    <input type="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block">Conte sua historia</label>
+                    <textarea name="descricao" id="descricao" class=" resize-none w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 "></textarea>
+                </div>
+                <button id="submitBtn" type="submit" class="cursor-pointer bg-red-500 text-white px-4 py-2 rounded w-full">
+                    Enviar Esperança!
+                </button>
+                <button id="savingBtn" type="button" class="cursor-progress bg-yellow-500 text-white px-4 py-2 rounded hidden w-full">
+                    Enviando...
+                </button>
+                <button id="confirmBtn" type="button" disabled class="cursor-not-allowed bg-green-500 text-white px-4 py-2 rounded hidden w-full ">
+                    Confirmado
+                </button>
+                <button id="retryBtn" type="button" class="cursor-pointer bg-pink-950 text-white px-4 py-2 rounded hidden w-full">
+                    Tente Novamente
+                </button>
+                
+            </form>
+        </div>
+    </section>
+
+    <script src="submit.js"></script>
+   
+
+    <!-- Seção de Impacto -->
+    <section class="py-12 bg-gray-50 text-gray-900 ">
+
+        
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center">Os Objetivos de Desenvolvimento Sustentável no Brasil (ODS)</h2>
+        </div>
+        <div class="flex justify-center gap-12 mt-12">
+            <div class="animate-bounce">
+                <a href="https://brasil.un.org/pt-br/sdgs/2"><img src="img_svg/SDG-2.svg" alt="ODS 2" class="w-32 h-32 object-contain"></a> 
+            </div>
+            <div class="animate-bounce">
+                <a href="https://brasil.un.org/pt-br/sdgs/3"> <img src="img_svg/SDG-3.svg" alt="ODS 2" class="w-32 h-32 object-contain"></a>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="py-12 bg-white text-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center">Contato</h2>
+            <form id="email-form" class="mt-8 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block">Nome</label>
+                    <input type="text" name="cont_nome" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block">Email</label>
+                    <input type="email" name="cont_email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block">Mensagem</label>
+                    <textarea name="cont_mensagem" class=" resize-none w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 "></textarea>
+                </div>
+                
+                
+                <button id="sendBtn" type="submit" class="w-full bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+                    Enviar Mensagem
+                </button>
+                <button id="sendingBtn" type="button" class="w-full bg-yellow-500 text-white px-4 py-2 rounded-lg hidden">
+                    Enviando...
+                </button>
+                <button id="successBtn" type="button" disabled class="w-full bg-green-500 text-white px-4 py-2 rounded-lg hidden">
+                    Mensagem Enviada
+                </button>
+                <button id="retry" type="button" class="w-full bg-pink-950 text-white px-4 py-2 rounded-lg hidden">
+                    Tente Novamente
+                </button>
+            </form>
+           
+        </div>
+    </section>
+    <script src="EmailService.js"></script>
+
+    <footer class="bg-red-500 p-4">
+        <div class="text-center text-white">
+            <p>Email: saborsolidariofsaproject@gmail.com </p>
+            <p>Telefone: (11) 96616-3889</p>
+            <a href="https://www.instagram.com/saborsolidariofsa/"><img src="" alt=""><button class=" bg-pink-950 text-white px-4 py-1 rounded-lg">--Nosso Instagram--</button></a>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
