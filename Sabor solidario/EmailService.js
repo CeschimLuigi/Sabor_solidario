@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('sendingBtn').classList.remove('hidden');
 
         try {
-            const response = await fetch('http://localhost:8080/email', {
+            const response = await fetch('https://server-qeki.onrender.com/email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
